@@ -1,5 +1,6 @@
 {% extends "blog/base.html" %}
 {% block content %}
+    {% if posts %}
     {% for post in posts %}
         <article class="media content-section">
         <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
@@ -29,5 +30,8 @@
             <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.next_page_number }}">Next</a>
             <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.paginator.num_pages }}">Last</a>
         {% endif %}
+    {% endif %}
+    {% else %}
+    <h1>No posts are available</h1>
     {% endif %}
 {% endblock content %}

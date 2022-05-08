@@ -1,5 +1,8 @@
-This repository contains Blog with CRUD featres on posts.
-Blog is implemented with Django.
+#Django Blog
+This repository contains Blog with CRUD featres on posts. Blog with CRUD operations on blog posts.
+
+Technology Stack : Django, Python, HTML, CSS, JavaScript, Bootstrap, SQLite3
+
 All the required package are listed in pckgs.txt
 ---------------------------------------------------------
 use command : conda create --name NEWENV --file pkgs.txt

@@ -1,4 +1,4 @@
-#Django Blog
+# Django Blog
 This repository contains Blog with CRUD featres on posts. Blog with CRUD operations on blog posts.
 
 Technology Stack : Django, Python, HTML, CSS, JavaScript, Bootstrap, SQLite3
